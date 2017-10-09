@@ -13,4 +13,11 @@ print numbers
 '''
 
 # TODO : 不重复的随机数
+# 查了文档，python直接提供了不重复的函数
+# random.sample(list,k)   从list随机获取k个不重复的数
+numbers = [random.randint(0,10000) for _ in range(10000)]
+
+print random.sample(numbers, 1000)
+
+# 查看sample源码探个究竟
 
