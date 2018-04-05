@@ -3,6 +3,7 @@
 __author__ = 'kai.zhang01'
 import sys
 import urllib2
+import numpy as np
 
 # read data from url
 # 数据源已经失效....通过google找到了所有的数据源，发现不是失效，而是必须墙....
@@ -103,7 +104,7 @@ print colData
 stats.probplot(colData, dist='norm', plot=pylab)
 pylab.show()
 
---------------- pandas 统计
+#--------------- pandas 统计
 
 import pandas as pd
 from pandas import DataFrame
