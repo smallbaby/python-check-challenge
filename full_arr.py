@@ -25,3 +25,4 @@ def dfs(step):
 
 if __name__ == '__main__':
     dfs(1)
+    enumerate

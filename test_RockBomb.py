@@ -122,4 +122,3 @@ summary = rocksVmines.describe()
 print summary
 
 
-注：非原创，仅做敲代码练习。
