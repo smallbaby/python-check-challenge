@@ -107,6 +107,47 @@ index = pd.Index(np.arange(3))  # Int64Index([0, 1, 2], dtype='int64') 针对整
 
 'Ohio' in frame3.columns # True
 
+# 重新索引
+obj = Series([4.5,7.2,-5.3,3.6], index = ['d','b','a','e'])
+
+obj.reindex(['a','b','c','d','e'], fill_value=0)
+obj = Series(['blue','purple','yellow'], index=[0,1,2])
+obj.reindex(range(6), method='ffill') # 往后填充
+'''
+ffill/pad 前向填充
+bfill或backfill 后向填充
+
+
+'''
+
+new_obj = obj.drop(0)
+
+
+obj = Series(np.arange(4.0), index=['a','b','c','d'])
+
+f = DataFrame(np.random.randn(4,3), columns=list('bcd'), index=['uu', 'oo', 'tt', 'ooo'])
+f.sort_index(by=['uu','oo'])
+
+
+obj = Series(['c','a','d','a','a','a','b','b','c','c'])
+uniques = obj.unique() # 去重
+obj.value_counts() # group by sum
+pd.value_counts(obj.values, sort=False)
+
+o = obj.isin(['b','c'])
+print(o)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
