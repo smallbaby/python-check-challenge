@@ -11,6 +11,7 @@ from tornado.options import options
 import tornado.ioloop
 from tornado.concurrent import futures
 from tornado_test.handler.service import fetch_huobi_price
+from typing import Dict
 
 
 class AwaitableThreadPoolExecutor(futures.ThreadPoolExecutor):
@@ -33,6 +34,10 @@ class BaseHandler(tornado.web.RequestHandler):
             'status_code': status_code,
             'message': msg
         })
+
+
+def fetch_huobi_price_diff(past_n_hour: int=0) -> Dict[str, dict]:
+    pass
 
 class HelloHandler(BaseHandler):
     async def get(self, *args, **kwargs):
