@@ -81,3 +81,41 @@ pd.HDFStore('xxx.h5)
 import pymongo
 conn = pymongo.Connection('host', port=27017)
 ```
+#### 常见指标计算
+```python
+## 求和 sum
+pd.sum() # 按列求和
+pd.sum(axis=1) # 按行求和
+# skipna=False 禁止跳过NULL值
+pd.sum(axis=1, skipna=False)
+## 平均值 mean
+# 参数跟sum一样
+```
+
+#### 常见数据操作
+```python
+# 填充缺失数据
+df.fillna(100)
+df.fillna({0:10,1:100,2:1000})  # 0,1,2 列
+# 修改原对象
+df1.fillna(0,inplace=True)
+#用前面的值来填充
+df2.fillna(method='ffill')
+# 合并pd
+# 合并能关联到的,默认取重叠列的列名当key去关联
+pd.merge(df1,df2) 
+# 指定列去关联
+pd.merge(df1,df2, on='key')
+# 不同key关联
+pd.merge(df1, df2, left_on='key1', right_on='key2')
+# 关联方式 默认inner 
+pd.merge(df1,df2,how='outer') # how=['outer','left', 'right']
+# 多key关联
+pd.merge(p1,p2,on=['key1','key2'],how='outer')
+# 别名
+pd.merge(p1,p2,on='key1', suffixes=('_left','_right'))
+# 索引合并
+pd.merge(p1,p2,left_on='key', right_index=True)
+pd.concat
+combine_first
+```
