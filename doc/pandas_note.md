@@ -118,4 +118,12 @@ pd.merge(p1,p2,on='key1', suffixes=('_left','_right'))
 pd.merge(p1,p2,left_on='key', right_index=True)
 pd.concat
 combine_first
+
+# 去重
+pd1.duplicated() # 返回boolean，表示各行是否是重复行
+pd1.drop_duplicates() # 移除重复后的DF
+pd1.drop_duplicates(['col1']) # 指定列去重
+
+pd1.drop_duplicates(['k1','k2'], take_last=True) # 默认保留第一个值，take_last 保留最后一个值
+
 ```
