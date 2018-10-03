@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: kai.zhang01
-# Date: 2018/7/22 
+# Date: 2018/9/10 
 # Desc:
 
-from web.a import *
+print('xxxxxxxxxx')

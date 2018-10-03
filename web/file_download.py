@@ -19,6 +19,11 @@ coins = {
 }
 
 
+class HelloHandler(tornado.web.RequestHandler):
+    def get(self):
+        print('handler')
+        self.finish()
+
 class FileHandler(tornado.web.RequestHandler):
     def get(self):
 
@@ -48,6 +53,7 @@ if __name__ == "__main__":
 
     application = tornado.web.Application([
         (r"/download", FileHandler),
+        (r"/hello", HelloHandler)
     ])
 
     application.listen(8080) # beta 8080, online 8081

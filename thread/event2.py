@@ -46,6 +46,7 @@ class EventEngine:
 
     def __proccess(self, event):
         # 事件处理
+        print('__pro:', event)
         if event.event_type in self.__handlers:
             print(event)
             for handler in self.__handlers[event.event_type]:
@@ -63,6 +64,7 @@ class KLineEvent:
         self.__event_engine = EventEngine
 
     def check(self):
+        print('_check, start')
         event = Event(EVENT_TYPE_DATA)
         event.data = 'helloworld'
         self.__event_engine.send(event)
@@ -81,11 +83,11 @@ def test():
     eventEngine = EventEngine()
     eventEngine.addHandler(EVENT_TYPE_DATA, s1.handler)
     eventEngine.addHandler(EVENT_TYPE_DATA, s2.handler)
-
-    kline = KLineEvent(eventEngine)
     eventEngine._start()
-    timer = Timer(2, kline.check)
-    timer.start()
+    kline = KLineEvent(eventEngine).check()
+
+    # timer = Timer(1, kline.check)
+    # timer.start()
 
 if __name__ == '__main__':
     test()
