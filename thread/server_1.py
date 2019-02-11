@@ -31,7 +31,7 @@ def run():
         while not tasks:
             # No active tasks to run
             # wait for I/O
-            can_recv, can_send, [] = select(recv_wait, send_wait, [])
+            can_recv, can_send, _ = select(recv_wait, send_wait, [])
             for s in can_recv:
                 tasks.append(recv_wait.pop(s))
             for s in can_send:

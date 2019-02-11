@@ -9,20 +9,23 @@ mygenerator = (x * x for x in range(3))
 for i in mygenerator:
     print(i)
 
+
 def createGenerator():
     mylist = range(3)
     for i in mylist:
-        yield i*i
+        yield i * i
 
-mygenerator = createGenerator() # 创建生成器
+
+mygenerator = createGenerator()  # 创建生成器
 for i in mygenerator:
     print(i)
+
 
 #######
 
 
 def shout(word="yes"):
-    return word.capitalize()+"!"
+    return word.capitalize() + "!"
 
 
 # print(shout())
@@ -41,13 +44,11 @@ def dosomething(func):
     print('after')
 
 
-
 @dosomething
 def talk():
-
     # 你可以在"talk"里定义另一个函数 ...
     def whisper(word="YES"):
-        return word.lower()+"..."
+        return word.lower() + "..."
 
     # 让我们用用它!
 
