@@ -19,9 +19,9 @@ for line in file.readlines():
     row = line.strip().split(',')
     xList.append(row)
 
-print str(len(xList)),'行', len(xList[1]),'列'
+print(str(len(xList)),'行', len(xList[1]),'列')
 
-print  '------------ Next 3 ---------'
+print('------------ Next 3 ---------')
 # 3. 各类型的属性数量分布
 
 # column 3
@@ -36,7 +36,7 @@ colArray = np.array(colData)
 
 #取均值
 colMean = np.mean(colArray)# 所有数据求均值
-print colMean
+print(colMean)
 
 '''
 numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<class numpy._globals._NoValue at 0x40b6a26c>)
@@ -52,7 +52,7 @@ np.std 求标准差
 axis = 0 每列的标准差
 axis = 1 每行的标准差
 '''
-print colsd
+print(colsd)
 
 ntiles = 4
 
@@ -60,7 +60,7 @@ perchentBdry = []
 for i in range(ntiles + 1):
     perchentBdry.append(np.percentile(colArray, i * 100/ntiles))
 
-print perchentBdry
+print(perchentBdry)
 
 
 # a = [60,45,43,21,56,89,76,32,22,10,12,14,23,35,45,43,23,23,43,23]
@@ -77,32 +77,32 @@ ntiles = 10
 for i in range(ntiles + 1):
     perchentBdry.append(np.percentile(colArray, i*100/ntiles))
 
-print perchentBdry
+print(perchentBdry)
 
 # label
 col = 60
 _colData = []
 for row in xList:
     _colData.append(row[col])
-print _colData
+print(_colData)
 
 unique = set(_colData) # 去重
-print unique
+print(unique)
 
 catDict = dict(zip(list(unique), range(len(unique))))
 
-print catDict # {'R': 0, 'M': 1}
+print(catDict) # {'R': 0, 'M': 1}
 
 catCount = [0] * 2
 
 for elt in _colData:
     catCount[catDict[elt]] += 1
-print list(unique) # ['R', 'M']
-print catCount # [97, 111]
+print(list(unique)) # ['R', 'M']
+print(catCount) # [97, 111]
 
-print colData
-stats.probplot(colData, dist='norm', plot=pylab)
-pylab.show()
+print(colData)
+# stats.probplot(colData, dist='norm', plot=pylab)
+# pylab.show()
 
 #--------------- pandas 统计
 
@@ -115,10 +115,10 @@ import matplotlib.pyplot as plot
 file = open('sonar.all-data', 'r')
 
 rocksVmines = pd.read_csv(file, header = None, prefix='V')
-print rocksVmines.head()
-print rocksVmines.tail()
+print(rocksVmines.head())
+print(rocksVmines.tail())
 
 summary = rocksVmines.describe()
-print summary
+print(summary)
 
 

@@ -213,3 +213,65 @@ class LList:
 
 
 qs1 = lambda x: x if len(x) <= 1 else qs1(i for i in x[1:] if i <=x[0]) + [x[0]] + qs1(i for i in x[1:] if i>x[0])
+
+
+
+
+qs2 = lambda x: x if len(x) <=1 else qs2([i for i in x[1:] if i <= x[0]]) + [x[0]] + qs2([i for i in x[1:] if i > x[0]])
+
+print(qs2([2,6,1,3,9,4,3,5]))
+
+def qc(x):
+    if len(x) <= 1:
+        return x
+    else:
+        _b = x[0]
+        l, e, h = [], [x[0]], []
+
+        for m in x[1:]:
+            if m > _b:
+                h.append(m)
+            elif m < _b:
+                l.append(m)
+            else:
+                e.append(m)
+        return qc(l) + e + qc(h)
+
+
+
+
+def qq(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        _b = arr[0]
+        s, q, h = [], [_b], []
+        for i in arr[1:]:
+            if _b > i:
+                h.append(_b)
+            elif _b < i:
+                s.append(_b)
+            else:
+                q.append(i)
+        return qq(s) + q + qq[h]
+
+
+def binary_search(arr, key):
+    l = 0
+    h = len(arr) - 1
+    while l < h:
+        mid = (l + h) / 2
+        if arr[mid] < key:
+            l = mid + 1
+        elif arr[mid] > key:
+            h = mid - 1
+        else:
+            return mid
+    return None
+
+print(binarySearch([1,3,5,6,9], 123))
+
+
+
+
+

@@ -34,9 +34,9 @@ class Weather(object):
             s = smtplib.SMTP_SSL("smtp.qq.com", 465)
             s.login(msg_from, passwd)
             s.sendmail(msg_from, msg_to, msg.as_string())
-            print "发送成功"
-        except Exception, e:
-            print "发送失败",e
+            print("发送成功")
+        except Exception as e:
+            print("发送失败"+e)
         finally:
             s.quit()
 
