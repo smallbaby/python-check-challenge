@@ -50,6 +50,7 @@ print(a.keys() & b.keys())
 a = [1, 2, 3, 333, 4, 5, 6, 7, 6, 7]
 print(set(a))
 
+
 def dedupe(items):
     se = set()
     for item in items:
@@ -57,13 +58,15 @@ def dedupe(items):
             yield item
             se.add(item)
 
+
 print(list(dedupe(a)))
 
-a='abcde'
-CUT = slice(1,3)
+a = 'abcde'
+CUT = slice(1, 3)
 print(a[CUT])
 
 from collections import Counter
+
 words = [
     'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
     'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',

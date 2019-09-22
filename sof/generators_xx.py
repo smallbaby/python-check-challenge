@@ -30,11 +30,6 @@ def shout(word="yes"):
 
 # print(shout())
 
-
-
-
-
-
 # talk()
 
 
