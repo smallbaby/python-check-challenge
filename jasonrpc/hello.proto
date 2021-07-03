@@ -1,0 +1,18 @@
+syntax = "proto3";
+import "google/protobuf/struct.proto";
+
+service Server {
+    rpc sayHello (Event) returns (Msg) {}
+}
+
+message Event {
+    int32 case_id = 1;
+    string name = 2;
+    string actor = 3;
+    google.protobuf.Struct x = 4;
+}
+
+message Msg {
+    int32 status = 1;
+    string message = 2;
+}
