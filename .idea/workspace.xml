@@ -23,43 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff54b13-ccd7-40db-a259-e33dad23dab8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/.pytest_cache/window_cal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cube_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/arraytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasonrpc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasonrpc/hello.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasonrpc/simple_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jasonrpc/simple_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map/sla.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/china.testone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/choose_stock_a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/math_formula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/option.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cpu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool/sampleDataToIp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-check-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-check-challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictonary/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictonary/server/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictonary/server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictonary/server/board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictonary/server/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/auto_trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock/usa_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/.vimrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/code_load.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/event2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/event3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/event_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/fib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/perfi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/perfi2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/process_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/server_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/server_2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kaizhang/python/project/python-check-challenge/full_arr.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -112,7 +83,28 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.math_formula">
+  <component name="RunManager" selected="Python.usa_stock">
+    <configuration name="auto_trade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-check-challenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/auto_trade.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="china.testone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simple_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="usa_stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,32 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jasonrpc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jasonrpc/simple_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="simple_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-check-challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jasonrpc" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jasonrpc/simple_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/usa_stock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,19 +190,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.simple_client" />
-      <item itemvalue="Python.simple_server" />
       <item itemvalue="Python.china.testone" />
       <item itemvalue="Python.choose_stock_a" />
       <item itemvalue="Python.math_formula" />
+      <item itemvalue="Python.auto_trade" />
+      <item itemvalue="Python.usa_stock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.usa_stock" />
+        <item itemvalue="Python.auto_trade" />
         <item itemvalue="Python.math_formula" />
         <item itemvalue="Python.choose_stock_a" />
         <item itemvalue="Python.china.testone" />
-        <item itemvalue="Python.simple_client" />
-        <item itemvalue="Python.simple_server" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +294,11 @@
           <url>file://$PROJECT_DIR$/stock/choose_stock_a.py</url>
           <line>21</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/local/lib/python3.8/site-packages/pandas_datareader/yahoo/daily.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
