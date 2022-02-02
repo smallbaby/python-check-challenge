@@ -23,14 +23,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff54b13-ccd7-40db-a259-e33dad23dab8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pictonary/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pictonary/server/Player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pictonary/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pictonary/server/board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pictonary/server/chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/auto_trade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock/usa_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/date_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdpuser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdpuser/autobi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdpuser/form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdpuser/sirius" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdpuser/user_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/ex.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/exam1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/exam2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gen_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/gen_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/judge.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/judge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/other.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/question_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/stock_option.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ddosCli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ddosSrv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/get_proxy_ips.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/gevent_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/high_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/mem_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/ntp_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/scapy_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/seleum_oke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-check-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-check-challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/auto_trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock/auto_trade.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +96,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kaizhang/python/project/python-check-challenge/full_arr.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tools" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -79,12 +108,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.usa_stock">
-    <configuration name="auto_trade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ddosCli">
+    <configuration name="ddosCli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/auto_trade.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/ddosCli.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="china.testone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ddosSrv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/china.testone.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/ddosSrv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="choose_stock_a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gevent_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/choose_stock_a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/gevent_request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="math_formula" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scapy_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/math_formula.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/scapy_request.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="usa_stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seleum_oke" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-check-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock/usa_stock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/seleum_oke.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,19 +222,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.china.testone" />
-      <item itemvalue="Python.choose_stock_a" />
-      <item itemvalue="Python.math_formula" />
-      <item itemvalue="Python.auto_trade" />
-      <item itemvalue="Python.usa_stock" />
+      <item itemvalue="Python.gevent_request" />
+      <item itemvalue="Python.scapy_request" />
+      <item itemvalue="Python.seleum_oke" />
+      <item itemvalue="Python.ddosSrv" />
+      <item itemvalue="Python.ddosCli" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.usa_stock" />
-        <item itemvalue="Python.auto_trade" />
-        <item itemvalue="Python.math_formula" />
-        <item itemvalue="Python.choose_stock_a" />
-        <item itemvalue="Python.china.testone" />
+        <item itemvalue="Python.ddosCli" />
+        <item itemvalue="Python.ddosSrv" />
+        <item itemvalue="Python.seleum_oke" />
+        <item itemvalue="Python.scapy_request" />
+        <item itemvalue="Python.gevent_request" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +332,26 @@
           <line>152</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/gen_data.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/gen_data.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exam/gen_data.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gui/stock_option.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -313,6 +365,41 @@
       <configuration name="PythonConfigurationType">
         <watch expression="np.mean(arr)" language="Python" />
         <watch expression="np.atd(arr, ddof=1)" language="Python" />
+        <watch expression="_l.split('\t')" language="Python" />
+        <watch expression="_l.index('\t')" language="Python" />
+        <watch expression="_l.index('\\t')" language="Python" />
+        <watch expression="_l" language="Python" />
+        <watch expression="_l.find('\t')" language="Python" />
+        <watch expression="_l.find(' ')" language="Python" />
+        <watch expression="driver.find_element_by_class_name(&quot;odd&quot;)" language="Python" />
+        <watch expression="_l.split(' ')" language="Python" />
+        <watch expression="driver.find_element_by_xpath()" language="Python" />
+        <watch expression="object" language="Python" />
+        <watch expression="j" language="Python" />
+        <watch expression="questions" language="Python" />
+        <watch expression="_l.find('单选题')" language="Python" />
+        <watch expression="_l" language="Python" />
+        <watch expression="_l.find('单选题')" language="Python" />
+        <watch expression="_l" language="Python" />
+        <watch expression="_l.split('A')" language="Python" />
+        <watch expression="_l.split(key)[1]" language="Python" />
+        <watch expression="_l.split('单选题')" language="Python" />
+        <watch expression="_l.split('单选题')[1]" language="Python" />
+        <watch expression="question['q'].find('答案') " language="Python" />
+        <watch expression="_l" language="Python" />
+        <watch expression="_l.find('单选题')" language="Python" />
+        <watch expression="_l.split('单选题')[1]" language="Python" />
+        <watch expression="_h(_l, single, 'A')" language="Python" />
+        <watch expression="question['A']" language="Python" />
+        <watch expression="question['A']" language="Python" />
+        <watch expression="question['A'] is None" language="Python" />
+        <watch expression="question['A']" language="Python" />
+        <watch expression="not question['A']" language="Python" />
+        <watch expression="_h(_l, single, 'A')" language="Python" />
+        <watch expression="_h(_l, single, 'A')" language="Python" />
+        <watch expression="driver.title" language="Python" />
+        <watch expression="driver.find_element_by_class_name(&quot;bc-table-scrollable-inner&quot;)" language="Python" />
+        <watch expression="web1.text" language="Python" />
       </configuration>
     </watches-manager>
   </component>

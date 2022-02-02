@@ -3,6 +3,9 @@
 # Date: 2018/7/22 
 # Desc:
 
+import web_pdb
+web_pdb.set_trace(port=-1)
+
 class Node(object):
 
     def __init__(self, results):
@@ -57,3 +60,9 @@ class Cache(object):
             new_node = Node(results)
             self.linked_list.append_to_front(new_node)
             self.lookup[query] = new_node
+
+if __name__ == '__main__':
+    a = 'abc'
+    for x in a:
+        print(x)
+

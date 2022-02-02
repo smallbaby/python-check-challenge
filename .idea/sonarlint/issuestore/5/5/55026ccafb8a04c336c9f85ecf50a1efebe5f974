@@ -1,0 +1,30 @@
+
+@python:S108!")Either remove or fill this block of code.(ã‘Û¾
+6python:S125""Remove this commented out code.(ð³ð¨
+@python:S1084")Either remove or fill this block of code.(ã‘Û¾
+6python:S1255"Remove this commented out code.(ð³ð¨
+Cpython:S1481‹"%Remove the unused local variable "i".(£ýú¼þÿÿÿÿ
+lpython:S3776M"TRefactor this function to reduce its Cognitive Complexity from 47 to the 15 allowed.(¸Ûòö
+@python:S108Y")Either remove or fill this block of code.(ã‘Û¾
+Tpython:S5754_"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Cpython:S5806\"+Rename this variable; it shadows a builtin.(â¨ûÑ
+Tpython:S5754f"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754k"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Tpython:S5754p"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ƒ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+@python:S108w")Either remove or fill this block of code.(ã‘Û¾
+Cpython:S1481Ö"%Remove the unused local variable "i".(£ýú¼þÿÿÿÿ
+>python:S1481Ø"%Remove the unused local variable "i".(ìØ™ 
+mpython:S3776’"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(»Ìßƒ
+Upython:S5754§"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Ipython:S5806£"+Rename this variable; it shadows a builtin.(ÿ­…¼úÿÿÿÿ
+Upython:S5754¬"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754±"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754¶"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754Î"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Apython:S108½")Either remove or fill this block of code.(ã‘Û¾
+Hpython:S1481ç"*Remove the unused local variable "single".(Õ®ÞÓùÿÿÿÿ
+mpython:S3776Þ"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(€ø¡¯
+Upython:S5754ð"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Upython:S5754ö"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+mpython:S117ƒ"PRename this parameter "FILE" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆÞï˜ùÿÿÿÿ

@@ -14,8 +14,8 @@ bs.login()
 # adjustflag 默认不复权：3；1：后复权；2：前复权
 # frequency 默认为d，日k线；d=日k线、w=周、m=月、5=5分钟、15=15分钟、30=30分钟、60=60分钟k线数据
 rs = bs.query_history_k_data_plus("sh.600000",
-                                  "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
-                                  start_date='2021-06-01', end_date='2021-06-30',
+                                  "date,code,open,high,low,close,volume,amount,adjustflag,pctChg,isST",
+                                  start_date='2022-01-01', end_date='2022-06-30',
                                   frequency="5", adjustflag="3")
 while (rs.error_code == '0') & rs.next():
     # 获取一条记录，将记录合并在一起
